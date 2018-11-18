@@ -1,0 +1,28 @@
+{
+  "name": "quill-icons",
+  "version": "1.5.0",
+  "description": "Common editor icons from quill editor",
+  "author": {
+    "name": "chilijung",
+    "email": "chilijung@gmail.com",
+    "url": ""
+  },
+  "files": ["lib"],
+  "main": "lib/index.js",
+  "keywords": ["icons", "quill", "editor"],
+  "pre-commit": ["lint"],
+  "repository": "https://github.com/Canner/canner-slate-editor/tree/master/packages/quill-icons",
+  "peerDependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^0.14.0 || ^15.0.0 || 16.x",
+    "react-dom": "^0.14.0 || ^15.0.0 || 16.x"
+  },
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "lodash.omit": "^4.5.0",
+    "lodash.pick": "^4.4.0",
+    "lodash.xor": "^4.5.0"
+  },
+  "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@canner/slate-icon-video",
+  "version": "1.5.0",
+  "description": "Slate icon for video",
+  "main": "lib/index.js",
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "antd": ">=3.2.0",
+    "react": "^0.14.0 || ^15.0.0 || 16.x",
+    "react-dom": "^0.14.0 || ^15.0.0 || 16.x",
+    "slate": ">=^0.33.0"
+  },
+  "dependencies": {
+    "@canner/image-upload": "^0.10.0",
+    "@canner/slate-editor-renderer": "^1.5.0",
+    "@canner/slate-icon-shared": "^1.5.0"
+  },
+  "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
+}

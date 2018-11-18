@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create a Emoji icon 1`] = `
+<span
+  data-active={false}
+  onClick={[Function]}
+  onMouseDown={[Function]}
+>
+  <svg
+    className={undefined}
+    height="18px"
+    onChange={undefined}
+    viewBox="0 0 18 18"
+    width="18px"
+  >
+    <circle
+      className="ql-fill"
+      cx="7"
+      cy="7"
+      r="1"
+    />
+    <circle
+      className="ql-fill"
+      cx="11"
+      cy="7"
+      r="1"
+    />
+    <path
+      className="ql-stroke"
+      d="M7,10a2,2,0,0,0,4,0H7Z"
+    />
+    <circle
+      className="ql-stroke"
+      cx="9"
+      cy="9"
+      r="6"
+    />
+  </svg>
+</span>
+`;
