@@ -1,7 +1,7 @@
 // @flow
 import { Mark, Range } from "slate";
 import type { Change, Text } from "slate";
-import removeAllMark from "@canner/slate-helper-mark-removeall";
+import removeAllMark from "@craigpestell/slate-helper-mark-removeall";
 
 export default function(
   options: any,

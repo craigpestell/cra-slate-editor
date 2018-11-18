@@ -7,35 +7,35 @@ import Toolbar from "./menuToolbar";
 import toolbar from "slate-toolbar";
 import sidebar from "slate-sidebar";
 import { MarkdownPlugin } from "slate-md-editor";
-import { BLOCKS } from "@canner/slate-constant";
-import copyPastePlugin from "@canner/slate-paste-html-plugin";
+import { BLOCKS } from "@craigpestell/slate-constant";
+import copyPastePlugin from "@craigpestell/slate-paste-html-plugin";
 
-import Blockquote, { BlockquotePlugin } from "@canner/slate-icon-blockquote";
-import Bold, { BoldPlugin } from "@canner/slate-icon-bold";
-import Code, { CodePlugin } from "@canner/slate-icon-code";
-import Clean from "@canner/slate-icon-clean";
-import { CodeBlockPlugin } from "@canner/slate-icon-codeblock";
-import { TablePlugin } from "@canner/slate-icon-table";
-import { FontBgColorPlugin } from "@canner/slate-icon-fontbgcolor";
-import { FontColorPlugin } from "@canner/slate-icon-fontcolor";
+import Blockquote, { BlockquotePlugin } from "@craigpestell/slate-icon-blockquote";
+import Bold, { BoldPlugin } from "@craigpestell/slate-icon-bold";
+import Code, { CodePlugin } from "@craigpestell/slate-icon-code";
+import Clean from "@craigpestell/slate-icon-clean";
+import { CodeBlockPlugin } from "@craigpestell/slate-icon-codeblock";
+import { TablePlugin } from "@craigpestell/slate-icon-table";
+import { FontBgColorPlugin } from "@craigpestell/slate-icon-fontbgcolor";
+import { FontColorPlugin } from "@craigpestell/slate-icon-fontcolor";
 import {
   Header1,
   Header2,
   HeaderOnePlugin,
   HeaderTwoPlugin,
   HeaderThreePlugin
-} from "@canner/slate-icon-header";
-import Hr, { HrPlugin } from "@canner/slate-icon-hr";
-import { ImagePlugin } from "@canner/slate-icon-image";
-import Italic, { ItalicPlugin } from "@canner/slate-icon-italic";
-import { LinkPlugin } from "@canner/slate-icon-link";
-import { OlList, UlList, ListPlugin } from "@canner/slate-icon-list";
+} from "@craigpestell/slate-icon-header";
+import Hr, { HrPlugin } from "@craigpestell/slate-icon-hr";
+import { ImagePlugin } from "@craigpestell/slate-icon-image";
+import Italic, { ItalicPlugin } from "@craigpestell/slate-icon-italic";
+import { LinkPlugin } from "@craigpestell/slate-icon-link";
+import { OlList, UlList, ListPlugin } from "@craigpestell/slate-icon-list";
 import StrikeThrough, {
   StrikeThroughPlugin
-} from "@canner/slate-icon-strikethrough";
-import Underline, { UnderlinePlugin } from "@canner/slate-icon-underline";
-import { VideoPlugin } from "@canner/slate-icon-video";
-import { ParagraphPlugin } from "@canner/slate-icon-shared";
+} from "@craigpestell/slate-icon-strikethrough";
+import Underline, { UnderlinePlugin } from "@craigpestell/slate-icon-underline";
+import { VideoPlugin } from "@craigpestell/slate-icon-video";
+import { ParagraphPlugin } from "@craigpestell/slate-icon-shared";
 
 import EditList from "slate-edit-list";
 import EditBlockquote from "slate-edit-blockquote";
@@ -47,8 +47,8 @@ import TrailingBlock from "slate-trailing-block";
 import "prismjs/themes/prism.css";
 
 // default value
-import { DEFAULT as DEFAULTLIST } from "@canner/slate-helper-block-list";
-import { DEFAULT as DEFAULTBLOCKQUOTE } from "@canner/slate-helper-block-quote";
+import { DEFAULT as DEFAULTLIST } from "@craigpestell/slate-helper-block-list";
+import { DEFAULT as DEFAULTBLOCKQUOTE } from "@craigpestell/slate-helper-block-quote";
 
 import "github-markdown-css";
 

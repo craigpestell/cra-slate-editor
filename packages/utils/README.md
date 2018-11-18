@@ -1,7 +1,6 @@
-
 # Utilities packages
 
-## `@canner/slate-util-get`
+## `@craigpestell/slate-util-get`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-util-get.svg)](https://badge.fury.io/js/%40canner%2Fslate-util-get)
 
@@ -19,7 +18,7 @@ Get marks that is a specific type in the selection.
 
 Get blocks that is a specific type in the selection.
 
-## `@canner/slate-util-have`
+## `@craigpestell/slate-util-have`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-util-have.svg)](https://badge.fury.io/js/%40canner%2Fslate-util-have)
 
@@ -36,7 +35,6 @@ The selected area have a specific mark type.
 `haveBlocks(change: Change, type: String) => Boolean`
 
 The selected area have a specific block type.
-
 
 #### `haveInlines`
 
@@ -56,7 +54,7 @@ Whether there is a specific data key in some blocks.
 
 Whether there is a specific data key in some marks.
 
-## `@canner/slate-util-what`
+## `@craigpestell/slate-util-what`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-util-what.svg)](https://badge.fury.io/js/%40canner%2Fslate-util-what)
 
@@ -79,4 +77,3 @@ What are the types that the blocks have in the selection.
 `whatInlineTypes(change: Change) => List<string>`
 
 What are the types that the inline have in the selection.
-

@@ -1,7 +1,7 @@
 // @flow
 import * as React from "react";
 import { Tooltip, Icon } from "antd";
-import links from "@canner/slate-helper-inline-links";
+import links from "@craigpestell/slate-helper-inline-links";
 import type { nodeProps } from "./type";
 
 export default function(options) {

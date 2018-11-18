@@ -7,18 +7,18 @@ import EditPrism from "slate-prism";
 import EditBlockquote from "slate-edit-blockquote";
 import EditList from "slate-edit-list";
 import PluginEditCode from "slate-edit-code";
-import { DEFAULT as DEFAULT_LIST } from "@canner/slate-helper-block-list";
+import { DEFAULT as DEFAULT_LIST } from "@craigpestell/slate-helper-block-list";
 import BLOCKS from "markup-it/lib/constants/blocks";
 import MARKS from "markup-it/lib/constants/marks";
 import INLINES from "markup-it/lib/constants/inlines";
 
 // blocks
-import { BlockquotePlugin } from "@canner/slate-icon-blockquote";
-import { ListPlugin } from "@canner/slate-icon-list";
-import { CodeBlockPlugin } from "@canner/slate-icon-codeblock";
-import { HrPlugin } from "@canner/slate-icon-hr";
-import { LinkPlugin } from "@canner/slate-icon-link";
-import { ImagePlugin } from "@canner/slate-icon-image";
+import { BlockquotePlugin } from "@craigpestell/slate-icon-blockquote";
+import { ListPlugin } from "@craigpestell/slate-icon-list";
+import { CodeBlockPlugin } from "@craigpestell/slate-icon-codeblock";
+import { HrPlugin } from "@craigpestell/slate-icon-hr";
+import { LinkPlugin } from "@craigpestell/slate-icon-link";
+import { ImagePlugin } from "@craigpestell/slate-icon-image";
 import {
   HeaderOnePlugin,
   HeaderTwoPlugin,
@@ -26,21 +26,21 @@ import {
   HeaderFourPlugin,
   HeaderFivePlugin,
   HeaderSixPlugin
-} from "@canner/slate-icon-header";
-import { ParagraphPlugin } from "@canner/slate-icon-shared";
+} from "@craigpestell/slate-icon-header";
+import { ParagraphPlugin } from "@craigpestell/slate-icon-shared";
 
 // marks plugin
-import { BoldPlugin } from "@canner/slate-icon-bold";
-import { CodePlugin } from "@canner/slate-icon-code";
-import { StrikeThroughPlugin } from "@canner/slate-icon-strikethrough";
-import { UnderlinePlugin } from "@canner/slate-icon-underline";
-import { ItalicPlugin } from "@canner/slate-icon-italic";
+import { BoldPlugin } from "@craigpestell/slate-icon-bold";
+import { CodePlugin } from "@craigpestell/slate-icon-code";
+import { StrikeThroughPlugin } from "@craigpestell/slate-icon-strikethrough";
+import { UnderlinePlugin } from "@craigpestell/slate-icon-underline";
+import { ItalicPlugin } from "@craigpestell/slate-icon-italic";
 
-import mdPlugin from "@canner/slate-md-plugin";
-import copyPastePlugin from "@canner/slate-paste-html-plugin";
+import mdPlugin from "@craigpestell/slate-md-plugin";
+import copyPastePlugin from "@craigpestell/slate-paste-html-plugin";
 import "prismjs/themes/prism.css";
 import "github-markdown-css";
-import HelpMenu from "@canner/slate-editor-help";
+import HelpMenu from "@craigpestell/slate-editor-help";
 import styled from "styled-components";
 
 export const MarkdownPlugin = mdPlugin;

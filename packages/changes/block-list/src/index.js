@@ -5,7 +5,7 @@ import {
   UL_LIST,
   LIST_ITEM,
   PARAGRAPH
-} from "@canner/slate-constant/lib/blocks";
+} from "@craigpestell/slate-constant/lib/blocks";
 
 export const DEFAULT = {
   types: [OL_LIST, UL_LIST],

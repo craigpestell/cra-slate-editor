@@ -1,5 +1,5 @@
 import Html from "slate-html-serializer";
-import { DEFAULT_RULES } from "@canner/slate-editor-html";
+import { DEFAULT_RULES } from "@craigpestell/slate-editor-html";
 import { getEventTransfer } from "slate-react";
 
 const serializer = new Html({ rules: DEFAULT_RULES });

@@ -1,5 +1,5 @@
 {
-  "name": "@canner/slate-constant",
+  "name": "@craigpestell/slate-constant",
   "version": "1.5.0",
   "description": "Constants in Slate editors",
   "main": "./lib/index",
@@ -10,6 +10,5 @@
   },
   "dependencies": {
     "object-values": "^2.0.0"
-  },
-  "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
+  }
 }

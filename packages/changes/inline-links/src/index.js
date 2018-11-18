@@ -1,4 +1,4 @@
-import { haveInlines } from "@canner/slate-util-have";
+import { haveInlines } from "@craigpestell/slate-util-have";
 
 export const DEFAULT = {
   href: "http://example.com/"

@@ -1,5 +1,5 @@
 {
-  "name": "@canner/slate-md-plugin",
+  "name": "@craigpestell/slate-md-plugin",
   "version": "1.5.4",
   "description": "A markdown plugin for slate framework",
   "repository": {
@@ -27,6 +27,5 @@
     "slate-soft-break": "^0.6.0",
     "styled-components": "^3.2.1"
   },
-  "keywords": ["slate", "plugin", "markdown"],
-  "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
+  "keywords": ["slate", "plugin", "markdown"]
 }

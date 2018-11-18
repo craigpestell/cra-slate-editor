@@ -7,8 +7,8 @@ import {
   Header2,
   HeaderOnePlugin,
   HeaderTwoPlugin
-} from "@canner/slate-icon-header";
-import { ParagraphPlugin } from "@canner/slate-icon-shared";
+} from "@craigpestell/slate-icon-header";
+import { ParagraphPlugin } from "@craigpestell/slate-icon-shared";
 import { getVisibleSelectionRect } from "get-selection-range";
 import {
   SidebarContainer,

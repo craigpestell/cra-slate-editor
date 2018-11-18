@@ -1,5 +1,5 @@
 // @flow
-import blocklist from "@canner/slate-helper-block-list";
+import blocklist from "@craigpestell/slate-helper-block-list";
 import { Range } from "slate";
 import type { Change, Node } from "slate";
 

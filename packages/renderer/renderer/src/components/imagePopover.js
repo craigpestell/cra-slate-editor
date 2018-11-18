@@ -1,6 +1,6 @@
 // @flow
 import * as React from "react";
-import inlineAddData from "@canner/slate-helper-inline-adddata";
+import inlineAddData from "@craigpestell/slate-helper-inline-adddata";
 import type { Change, Range } from "slate";
 import { Popover, Form, Button, InputNumber, Checkbox } from "antd";
 

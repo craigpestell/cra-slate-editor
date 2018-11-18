@@ -23,6 +23,5 @@
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
     "lodash.xor": "^4.5.0"
-  },
-  "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
+  }
 }

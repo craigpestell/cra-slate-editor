@@ -2,10 +2,10 @@
 import * as React from "react";
 import type { Value, Change } from "slate";
 import WindowDimensions from "react-window-detect-dimensions";
-import Bold, { BoldPlugin } from "@canner/slate-icon-bold";
-import Italic, { ItalicPlugin } from "@canner/slate-icon-italic";
-import Underline, { UnderlinePlugin } from "@canner/slate-icon-underline";
-import { ParagraphPlugin } from "@canner/slate-icon-shared";
+import Bold, { BoldPlugin } from "@craigpestell/slate-icon-bold";
+import Italic, { ItalicPlugin } from "@craigpestell/slate-icon-italic";
+import Underline, { UnderlinePlugin } from "@craigpestell/slate-icon-underline";
+import { ParagraphPlugin } from "@craigpestell/slate-icon-shared";
 import { getVisibleSelectionRect } from "get-selection-range";
 import { ToolbarContainer, IconContainer, Divider, Item } from "./container";
 

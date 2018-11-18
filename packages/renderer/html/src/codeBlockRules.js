@@ -1,7 +1,7 @@
 // @flow
 import React from "react";
 import PluginEditCode from "slate-edit-code";
-import { CODE, CODE_LINE } from "@canner/slate-constant/lib/blocks";
+import { CODE, CODE_LINE } from "@craigpestell/slate-constant/lib/blocks";
 
 export default function(opt) {
   const options = Object.assign(

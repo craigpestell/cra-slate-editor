@@ -10,13 +10,13 @@ This repository is maintain in a monorepo see packages in `packages` folder.
 
 ## Blocks
 
-#### `@canner/slate-constant`
+#### `@craigpestell/slate-constant`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-constant.svg)](https://badge.fury.io/js/%40canner%2Fslate-constant)
 
 Shared slate type variables.
 
-#### `@canner/slate-helper-block-adddata`
+#### `@craigpestell/slate-helper-block-adddata`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-helper-block-adddata.svg)](https://badge.fury.io/js/%40canner%2Fslate-helper-block-adddata)
 
@@ -24,7 +24,7 @@ Shared slate type variables.
 
 Add additional data to block, this could be useful in implement things like align.
 
-#### `@canner/slate-helper-block-quote`
+#### `@craigpestell/slate-helper-block-quote`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-helper-block-quote.svg)](https://badge.fury.io/js/%40canner%2Fslate-helper-block-quote)
 
@@ -32,7 +32,7 @@ Add additional data to block, this could be useful in implement things like alig
 
 This plugin is based on https://github.com/GitbookIO/slate-edit-blockquote, will wrapped block quote if the selection is not within a blockquote, otherwise unwrapped it.
 
-#### `@canner/slate-helper-block-cleardatabykey`
+#### `@craigpestell/slate-helper-block-cleardatabykey`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-helper-block-cleardatabykey.svg)](https://badge.fury.io/js/%40canner%2Fslate-helper-block-cleardatabykey)
 
@@ -40,7 +40,7 @@ This plugin is based on https://github.com/GitbookIO/slate-edit-blockquote, will
 
 This remove a data key that stores in current block type
 
-#### `@canner/slate-helper-block-list`
+#### `@craigpestell/slate-helper-block-list`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-helper-block-list.svg)](https://badge.fury.io/js/%40canner%2Fslate-helper-block-list)
 
@@ -50,7 +50,7 @@ This plugin is based on https://github.com/GitbookIO/slate-edit-list/, will wrap
 
 ## Inlines
 
-#### `@canner/slate-helper-inline-adddata`
+#### `@craigpestell/slate-helper-inline-adddata`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-helper-inline-adddata.svg)](https://badge.fury.io/js/%40canner%2Fslate-helper-inline-adddata)
 
@@ -58,7 +58,7 @@ This plugin is based on https://github.com/GitbookIO/slate-edit-list/, will wrap
 
 Add additional data to inline, this could be useful in implement things like align.
 
-#### `@canner/slate-helper-inline-links`
+#### `@craigpestell/slate-helper-inline-links`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-helper-inline-links.svg)](https://badge.fury.io/js/%40canner%2Fslate-helper-inline-links)
 
@@ -68,7 +68,7 @@ insert a link with `options.href` settings, wrapped inline if the selection is e
 
 ## Marks
 
-#### `@canner/slate-helper-mark-addoverwrite`
+#### `@craigpestell/slate-helper-mark-addoverwrite`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-helper-mark-addoverwrite.svg)](https://badge.fury.io/js/%40canner%2Fslate-helper-mark-addoverwrite)
 
@@ -76,7 +76,7 @@ insert a link with `options.href` settings, wrapped inline if the selection is e
 
 If the selected marks have type that is equal to `options.type`, will be removed the original one and add a new mark with the option settings.
 
-#### `@canner/slate-helper-mark-removeall`
+#### `@craigpestell/slate-helper-mark-removeall`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-helper-mark-removeall.svg)](https://badge.fury.io/js/%40canner%2Fslate-helper-mark-removeall)
 
@@ -84,7 +84,7 @@ If the selected marks have type that is equal to `options.type`, will be removed
 
 Remove all marks in the selection.
 
-#### `@canner/slate-helper-mark-removetype`
+#### `@craigpestell/slate-helper-mark-removetype`
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-helper-mark-removetype.svg)](https://badge.fury.io/js/%40canner%2Fslate-helper-mark-removetype)
 

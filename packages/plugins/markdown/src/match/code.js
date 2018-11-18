@@ -2,7 +2,7 @@
 import { Mark, Range } from "slate";
 import type { Change, Text } from "slate";
 import trailingSpace from "../utils/trailingSpace";
-import removeAllMark from "@canner/slate-helper-mark-removeall";
+import removeAllMark from "@craigpestell/slate-helper-mark-removeall";
 
 export default function(
   type: string,

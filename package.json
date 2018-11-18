@@ -6,7 +6,7 @@
   "files": [
     "lib"
   ],
-  "main": "packages/editors/src/index.js",
+  "main": "packages/editors/cra-slate-editor/lib/index.js",
   "dependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",

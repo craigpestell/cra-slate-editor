@@ -1,9 +1,9 @@
 // @flow
 import * as React from "react";
 import type { IconProps } from "./types";
-import blockAddData from "@canner/slate-helper-block-adddata";
-import clearDataKey from "@canner/slate-helper-block-cleardatabykey";
-import { haveDataKeyInSomeBlocks } from "@canner/slate-util-have";
+import blockAddData from "@craigpestell/slate-helper-block-adddata";
+import clearDataKey from "@craigpestell/slate-helper-block-cleardatabykey";
+import { haveDataKeyInSomeBlocks } from "@craigpestell/slate-util-have";
 
 export default (type: string) => (Selector: React.Element<*>) => {
   return class SharedSelector extends React.Component<IconProps> {

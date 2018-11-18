@@ -1,7 +1,7 @@
 // @flow
 import React from "react";
 import styled from "styled-components";
-import { nodeAttrs } from "@canner/slate-icon-shared";
+import { nodeAttrs } from "@craigpestell/slate-icon-shared";
 
 export const VideoContiner = styled.iframe`
   src: ${props => props.src};

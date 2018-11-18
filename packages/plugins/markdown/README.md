@@ -1,17 +1,17 @@
-# @canner/slate-md-plugin
+# @craigpestell/slate-md-plugin
 
 A markdown plugin for slate framework
 
 ## Install
 
 ```
-npm i @canner/slate-md-plugin
+npm i @craigpestell/slate-md-plugin
 ```
 
 ## Usage
 
 ```js
-import MarkdownPlugin from '@canner/slate-md-plugin';
+import MarkdownPlugin from '@craigpestell/slate-md-plugin';
 const plugins = [
   MarkdownPlugin(options)
 ]

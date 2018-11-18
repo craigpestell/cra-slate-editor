@@ -2,11 +2,11 @@
 import * as React from "react";
 import type { IconProps } from "shared/src/types";
 import { Dropdown, Menu } from "antd";
-import ToolbarIcon from "@canner/slate-icon-shared";
-import { markAttrs } from "@canner/slate-icon-shared";
-import { FONTSIZE } from "@canner/slate-constant/lib/marks";
-import { SharedMarkSelectorDecoration } from "@canner/slate-select-shared";
-import commonMark from "@canner/slate-editor-renderer/lib/commonMark";
+import ToolbarIcon from "@craigpestell/slate-icon-shared";
+import { markAttrs } from "@craigpestell/slate-icon-shared";
+import { FONTSIZE } from "@craigpestell/slate-constant/lib/marks";
+import { SharedMarkSelectorDecoration } from "@craigpestell/slate-select-shared";
+import commonMark from "@craigpestell/slate-editor-renderer/lib/commonMark";
 import omit from "lodash.omit";
 
 export const FontSizePlugin = opt => {

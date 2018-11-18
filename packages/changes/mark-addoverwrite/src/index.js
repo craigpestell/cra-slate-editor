@@ -1,5 +1,5 @@
-import { whatMarkTypes } from "@canner/slate-util-what";
-import { getMarkType } from "@canner/slate-util-get";
+import { whatMarkTypes } from "@craigpestell/slate-util-what";
+import { getMarkType } from "@craigpestell/slate-util-get";
 
 export default (change, options) => {
   const type = options.type;

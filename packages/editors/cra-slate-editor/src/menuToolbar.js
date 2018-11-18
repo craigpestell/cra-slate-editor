@@ -6,22 +6,22 @@ import styled from "styled-components";
 import { Container } from "./components/item";
 import FullScreenIcon from "./components/fullScreen";
 
-import { AlignCenter, AlignLeft, AlignRight } from "@canner/slate-icon-align";
-import Blockquote from "@canner/slate-icon-blockquote";
-import Table from "@canner/slate-icon-table";
-import CodeBlock from "@canner/slate-icon-codeblock";
-import FontBgColor from "@canner/slate-icon-fontbgcolor";
-import FontColor from "@canner/slate-icon-fontcolor";
-import { Header1, Header2, Header3 } from "@canner/slate-icon-header";
-import Hr from "@canner/slate-icon-hr";
-import Image from "@canner/slate-icon-image";
-import { Indent, Outdent } from "@canner/slate-icon-indent";
-import Link from "@canner/slate-icon-link";
-import { OlList, UlList } from "@canner/slate-icon-list";
-import Undo from "@canner/slate-icon-undo";
-import Redo from "@canner/slate-icon-redo";
-import Video from "@canner/slate-icon-video";
-import HelpMenu from "@canner/slate-editor-help";
+import { AlignCenter, AlignLeft, AlignRight } from "@craigpestell/slate-icon-align";
+import Blockquote from "@craigpestell/slate-icon-blockquote";
+import Table from "@craigpestell/slate-icon-table";
+import CodeBlock from "@craigpestell/slate-icon-codeblock";
+import FontBgColor from "@craigpestell/slate-icon-fontbgcolor";
+import FontColor from "@craigpestell/slate-icon-fontcolor";
+import { Header1, Header2, Header3 } from "@craigpestell/slate-icon-header";
+import Hr from "@craigpestell/slate-icon-hr";
+import Image from "@craigpestell/slate-icon-image";
+import { Indent, Outdent } from "@craigpestell/slate-icon-indent";
+import Link from "@craigpestell/slate-icon-link";
+import { OlList, UlList } from "@craigpestell/slate-icon-list";
+import Undo from "@craigpestell/slate-icon-undo";
+import Redo from "@craigpestell/slate-icon-redo";
+import Video from "@craigpestell/slate-icon-video";
+import HelpMenu from "@craigpestell/slate-editor-help";
 
 type Props = {
   value: Value,

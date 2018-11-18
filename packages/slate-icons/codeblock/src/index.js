@@ -3,13 +3,13 @@ import * as React from "react";
 import { Data } from "slate";
 import type { IconProps } from "shared/src/types";
 import { Popover, Button, Form, Select } from "antd";
-import ToolbarIcon from "@canner/slate-icon-shared";
+import ToolbarIcon from "@craigpestell/slate-icon-shared";
 import PluginEditCode from "slate-edit-code";
-import { CODE, CODE_LINE, PARAGRAPH } from "@canner/slate-constant/lib/blocks";
+import { CODE, CODE_LINE, PARAGRAPH } from "@craigpestell/slate-constant/lib/blocks";
 import {
   codeBlockNode,
   codeLineNode
-} from "@canner/slate-editor-renderer/lib/codeBlockNode";
+} from "@craigpestell/slate-editor-renderer/lib/codeBlockNode";
 import { languages } from "prismjs/components.json";
 const Option = Select.Option;
 

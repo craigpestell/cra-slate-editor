@@ -1,8 +1,8 @@
 // @flow
 import React from "react";
 import styled from "styled-components";
-import { IMAGE } from "@canner/slate-constant/lib/inlines";
-import { nodeAttrs } from "@canner/slate-icon-shared";
+import { IMAGE } from "@craigpestell/slate-constant/lib/inlines";
+import { nodeAttrs } from "@craigpestell/slate-icon-shared";
 
 export const ImageContiner = styled.img`
   src: ${props => props.src};
