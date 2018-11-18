@@ -1,0 +1,13 @@
+{
+  "name": "@canner/slate-helper-inline-adddata",
+  "version": "1.5.0",
+  "description": "A slate helper to add data to current inline",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
+}
