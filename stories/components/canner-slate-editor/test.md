@@ -1,11 +1,11 @@
-# canner-slate-editor
+# cra-slate-editor
 
 > Another rich text editor using [Slate framework](https://docs.slatejs.org).
 
 ## Installation
 
 ```sh
-$ npm install --save canner-slate-editor
+$ npm install --save cra-slate-editor
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Value } from "slate";
 
-import CannerEditor from "canner-slate-editor";
+import CannerEditor from "cra-slate-editor";
 
 const initialValue = Value.fromJSON({
   document: {
@@ -60,7 +60,7 @@ class DemoEditor extends React.Component<*, { value: Value }> {
 ReactDOM.render(<DemoEditor />, (document: any).getElementById("root"));
 ```
 
-see https://github.com/Canner/canner-slate-editor/blob/master/docs/index.js
+see https://github.com/Canner/cra-slate-editor/blob/master/docs/index.js
 
 ## Start example server
 

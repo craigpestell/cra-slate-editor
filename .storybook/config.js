@@ -8,7 +8,7 @@ function loadStories() {
 }
 
 setOptions({
-  name: "canner-slate-editor",
+  name: "cra-slate-editor",
   url: "https://github.com/craigpestell/cra-slate-editor"
 });
 

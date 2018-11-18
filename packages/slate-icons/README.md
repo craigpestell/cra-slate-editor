@@ -12,7 +12,7 @@ Install icons that you want to support in your slate project, and pass slate edi
 
 **NOTE: You have to add corresponding plugins to your editor!**
 
-You will need to pass icon classnames as props into your components ([supported classes](../quill-icons#props)), you could look at the example [how to setup your icon's styles](https://github.com/Canner/canner-slate-editor/blob/master/stories/components/slate-icons/style.css)
+You will need to pass icon classnames as props into your components ([supported classes](../quill-icons#props)), you could look at the example [how to setup your icon's styles](https://github.com/Canner/cra-slate-editor/blob/master/stories/components/slate-icons/style.css)
 
 ```js
 class App extends React.Component {
@@ -57,7 +57,7 @@ class App extends React.Component {
 }
 ```
 
-The best explanation is a simple example: https://github.com/Canner/canner-slate-editor/blob/master/stories/components/slate-icons/index.js
+The best explanation is a simple example: https://github.com/Canner/cra-slate-editor/blob/master/stories/components/slate-icons/index.js
 
 ## Icon and selectors' props
 

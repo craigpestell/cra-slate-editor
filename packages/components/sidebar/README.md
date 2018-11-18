@@ -2,7 +2,7 @@
 
 > Quick and easy way to implement sidebar menu in your [slate editor](https://docs.slatejs.org)
 
-![demo](https://github.com/Canner/canner-slate-editor/blob/master/preview/sidebar-demo.gif?raw=true)
+![demo](https://github.com/Canner/cra-slate-editor/blob/master/preview/sidebar-demo.gif?raw=true)
 
 ## Installation
 
@@ -51,7 +51,7 @@ class App extends React.Component<{}, { value: Value }> {
 }
 ```
 
-see [storybook codes](https://github.com/Canner/canner-slate-editor/tree/master/stories/components/sidebar) for full implementation and demo
+see [storybook codes](https://github.com/Canner/cra-slate-editor/tree/master/stories/components/sidebar) for full implementation and demo
 
 ## Options
 

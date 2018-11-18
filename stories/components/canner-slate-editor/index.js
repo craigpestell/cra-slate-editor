@@ -2,7 +2,7 @@
 import React from "react";
 import { Value } from "slate";
 import initialValue from "./initialValue";
-import CannerEditor from "packages/editors/canner-slate-editor/src";
+import CannerEditor from "packages/editors/cra-slate-editor/src";
 
 export default class DemoEditor extends React.Component<*, { value: Value }> {
   // Set the initial state when the app is first constructed.

@@ -2,7 +2,7 @@
 
 > Quick and easy way to implement medium like toolbar in your [slate editor](https://docs.slatejs.org)
 
-![demo](https://github.com/Canner/canner-slate-editor/blob/master/preview/toolbar-demo.gif?raw=true)
+![demo](https://github.com/Canner/cra-slate-editor/blob/master/preview/toolbar-demo.gif?raw=true)
 
 ## Installation
 
@@ -51,7 +51,7 @@ class App extends React.Component<{}, { value: Value }> {
 }
 ```
 
-see [codes](https://github.com/Canner/canner-slate-editor/tree/master/stories/components/toolbar) for full implementation and demo
+see [codes](https://github.com/Canner/cra-slate-editor/tree/master/stories/components/toolbar) for full implementation and demo
 
 ## Options
 
@@ -59,7 +59,7 @@ see [codes](https://github.com/Canner/canner-slate-editor/tree/master/stories/co
 
 **NOTE: Remember to add certain plugin to your editor's plugins**
 
-[Select your icons here](https://github.com/Canner/canner-slate-editor/tree/master/packages/slate-icons)
+[Select your icons here](https://github.com/Canner/cra-slate-editor/tree/master/packages/slate-icons)
 
 There's an example
 
