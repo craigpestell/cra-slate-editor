@@ -1,11 +1,11 @@
-# @craigpestell/slate-icon-code
+# @canner/slate-icon-code
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-code.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-code)
 
 ## Icon
 
 ```js
-import Code from "@craigpestell/slate-icon-code";
+import Code from "@canner/slate-icon-code";
 ```
 
 #### Props
@@ -15,7 +15,7 @@ import Code from "@craigpestell/slate-icon-code";
 ## Plugin
 
 ```js
-import { CodePlugin } from "@craigpestell/slate-icon-code";
+import { CodePlugin } from "@canner/slate-icon-code";
 
 // this will add render method for this mark, and also support hot key for bold.
 const plugins = [CodePlugin(options)];

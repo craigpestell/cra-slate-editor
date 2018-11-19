@@ -11,7 +11,7 @@
   "main": "lib/index.js",
   "keywords": ["icons", "quill", "editor"],
   "pre-commit": ["lint"],
-  "repository": "https://github.com/Canner/cra-slate-editor/tree/master/packages/quill-icons",
+  "repository": "https://github.com/Canner/canner-slate-editor/tree/master/packages/quill-icons",
   "peerDependencies": {
     "prop-types": "^15.6.1",
     "react": "^0.14.0 || ^15.0.0 || 16.x",
@@ -23,5 +23,6 @@
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
     "lodash.xor": "^4.5.0"
-  }
+  },
+  "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
 }

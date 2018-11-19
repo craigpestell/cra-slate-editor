@@ -1,15 +1,15 @@
-# @craigpestell/slate-icon-video
+# @canner/slate-icon-video
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-video.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-video)
 
 **Icon:**
 
 ```js
-import Video from "@craigpestell/slate-icon-video";
+import Video from "@canner/slate-icon-video";
 ```
 
 **Plugin:**
 
 ```js
-import { VideoPlugin } from "@craigpestell/slate-icon-video";
+import { VideoPlugin } from "@canner/slate-icon-video";
 ```

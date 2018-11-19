@@ -15,11 +15,11 @@ import {
   HEADING_5,
   HEADING_6,
   PARAGRAPH
-} from "@craigpestell/slate-constant/lib/blocks";
+} from "@canner/slate-constant/lib/blocks";
 import isHotkey from "is-hotkey";
 
-import commonNode from "@craigpestell/slate-editor-renderer/lib/commonNode";
-import { nodeAttrs } from "@craigpestell/slate-icon-shared";
+import commonNode from "@canner/slate-editor-renderer/lib/commonNode";
+import { nodeAttrs } from "@canner/slate-icon-shared";
 
 const plugin = (type, tagName, hotkey) => {
   return {

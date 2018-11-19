@@ -1,5 +1,5 @@
 {
-  "name": "@craigpestell/slate-icon-image",
+  "name": "@canner/slate-icon-image",
   "version": "1.5.0",
   "description": "Slate icon for image",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@craigpestell/slate-constant": ">=^1.0.6",
+    "@canner/slate-constant": ">=^1.0.6",
     "antd": ">=3.2.0",
     "react": "^0.14.0 || ^15.0.0 || 16.x",
     "react-dom": "^0.14.0 || ^15.0.0 || 16.x",
@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "@canner/image-upload": "^0.13.1",
-    "@craigpestell/slate-editor-renderer": "^1.5.0",
-    "@craigpestell/slate-icon-shared": "^1.5.0"
-  }
+    "@canner/slate-editor-renderer": "^1.5.0",
+    "@canner/slate-icon-shared": "^1.5.0"
+  },
+  "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
 }

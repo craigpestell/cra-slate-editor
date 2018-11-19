@@ -2,18 +2,18 @@
 import * as React from "react";
 import type { IconProps } from "shared/src/types";
 import TablePicker, { nodeAttrs } from "create-table-picker";
-import ToolbarIcon from "@craigpestell/slate-icon-shared";
+import ToolbarIcon from "@canner/slate-icon-shared";
 import {
   TABLE,
   TABLE_ROW,
   TABLE_CELL
-} from "@craigpestell/slate-constant/lib/blocks";
+} from "@canner/slate-constant/lib/blocks";
 import EditTable from "slate-edit-table";
 import {
   tableNode,
   tableRowNode,
   tableCellNode
-} from "@craigpestell/slate-editor-renderer/lib/tableNode";
+} from "@canner/slate-editor-renderer/lib/tableNode";
 import type { Data } from "react-hovertable";
 import omit from "lodash.omit";
 

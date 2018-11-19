@@ -2,11 +2,11 @@
 import * as React from "react";
 import type { IconProps } from "shared/src/types";
 import { Popover } from "antd";
-import ToolbarIcon from "@craigpestell/slate-icon-shared";
+import ToolbarIcon from "@canner/slate-icon-shared";
 import { Container } from "@canner/image-upload";
 import { IntlProvider, FormattedMessage, addLocaleData } from "react-intl";
-import { IMAGE } from "@craigpestell/slate-constant/lib/inlines";
-import imageNode from "@craigpestell/slate-editor-renderer/lib/imageNode";
+import { IMAGE } from "@canner/slate-constant/lib/inlines";
+import imageNode from "@canner/slate-editor-renderer/lib/imageNode";
 
 import enLocale from "@canner/image-upload/lib/locale/en";
 import en from "react-intl/locale-data/en";

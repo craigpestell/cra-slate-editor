@@ -1,11 +1,11 @@
 // @flow
 import * as React from "react";
 import type { IconProps } from "shared/src/types";
-import ToolbarIcon, { nodeAttrs } from "@craigpestell/slate-icon-shared";
-import blockquote, { DEFAULT } from "@craigpestell/slate-helper-block-quote";
-import { BLOCKQUOTE } from "@craigpestell/slate-constant/lib/blocks";
+import ToolbarIcon, { nodeAttrs } from "@canner/slate-icon-shared";
+import blockquote, { DEFAULT } from "@canner/slate-helper-block-quote";
+import { BLOCKQUOTE } from "@canner/slate-constant/lib/blocks";
 import EditBlockquote from "slate-edit-blockquote";
-import commonNode from "@craigpestell/slate-editor-renderer/lib/commonNode";
+import commonNode from "@canner/slate-editor-renderer/lib/commonNode";
 import omit from "lodash.omit";
 import isHotkey from "is-hotkey";
 

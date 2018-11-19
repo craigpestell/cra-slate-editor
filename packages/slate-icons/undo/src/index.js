@@ -1,7 +1,7 @@
 // @flow
 import * as React from "react";
 import type { IconProps } from "shared/src/types";
-import ToolbarIcon from "@craigpestell/slate-icon-shared";
+import ToolbarIcon from "@canner/slate-icon-shared";
 
 export default class Undo extends React.Component<IconProps> {
   typeName: string;

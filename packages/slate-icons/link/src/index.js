@@ -2,11 +2,11 @@
 import * as React from "react";
 import type { IconProps } from "shared/src/types";
 import { Popover, Button, Form, Input } from "antd";
-import ToolbarIcon from "@craigpestell/slate-icon-shared";
-import links from "@craigpestell/slate-helper-inline-links";
-import { haveInlines } from "@craigpestell/slate-util-have";
-import { LINK } from "@craigpestell/slate-constant/lib/inlines";
-import linkNode from "@craigpestell/slate-editor-renderer/lib/linkNode";
+import ToolbarIcon from "@canner/slate-icon-shared";
+import links from "@canner/slate-helper-inline-links";
+import { haveInlines } from "@canner/slate-util-have";
+import { LINK } from "@canner/slate-constant/lib/inlines";
+import linkNode from "@canner/slate-editor-renderer/lib/linkNode";
 
 export const LinkPlugin = opt => {
   const options = Object.assign(

@@ -19,7 +19,7 @@ var quillIcons = require("quill-icons");
 <quillIcons.AlignCenter />; // React element
 ```
 
-Icons support: [Complete list](https://canner.github.io/cra-slate-editor/?selectedKind=Quill%20icons)
+Icons support: [Complete list](https://canner.github.io/canner-slate-editor/?selectedKind=Quill%20icons)
 
 ## Props
 

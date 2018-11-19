@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import ToolbarIcon, {
   markDecorator,
   markPlugin
-} from "@craigpestell/slate-icon-shared";
-import { CODE } from "@craigpestell/slate-constant/lib/marks";
+} from "@canner/slate-icon-shared";
+import { CODE } from "@canner/slate-constant/lib/marks";
 
 export const CodePlugin = opt => {
   const options = Object.assign(

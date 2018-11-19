@@ -1,5 +1,5 @@
 {
-  "name": "@craigpestell/slate-icon-redo",
+  "name": "@canner/slate-icon-redo",
   "version": "1.5.0",
   "description": "Slate icon for redo",
   "main": "lib/index.js",
@@ -14,7 +14,8 @@
     "slate": ">=^0.33.0"
   },
   "dependencies": {
-    "@craigpestell/slate-icon-shared": "^1.5.0",
+    "@canner/slate-icon-shared": "^1.5.0",
     "is-hotkey": "^0.1.2"
-  }
+  },
+  "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
 }

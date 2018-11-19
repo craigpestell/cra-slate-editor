@@ -1,11 +1,11 @@
-# @craigpestell/slate-icon-blockquote
+# @canner/slate-icon-blockquote
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-blockquote.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-blockquote)
 
 ## Icon
 
 ```js
-import Blockquote from "@craigpestell/slate-icon-blockquote";
+import Blockquote from "@canner/slate-icon-blockquote";
 ```
 
 ## Plugin
@@ -13,7 +13,7 @@ import Blockquote from "@craigpestell/slate-icon-blockquote";
 Please install https://github.com/GitbookIO/slate-edit-blockquote
 
 ```js
-import { DEFAULT as DEFAULTBLOCKQUOTE } from "@craigpestell/slate-helper-block-quote";
+import { DEFAULT as DEFAULTBLOCKQUOTE } from "@canner/slate-helper-block-quote";
 import EditBlockquote from "slate-edit-blockquote";
 
 // plugin
@@ -23,7 +23,7 @@ EditBlockquote(DEFAULTBLOCKQUOTE);
 Also add `BlockquotePlugin`
 
 ```js
-import { BlockquotePlugin } from "@craigpestell/slate-icon-blockquote";
+import { BlockquotePlugin } from "@canner/slate-icon-blockquote";
 
 BlockquotePlugin(options);
 ```

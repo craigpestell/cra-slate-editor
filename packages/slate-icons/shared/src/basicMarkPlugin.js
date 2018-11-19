@@ -1,5 +1,5 @@
 // @flow
-import commonMark from "@craigpestell/slate-editor-renderer/lib/commonMark";
+import commonMark from "@canner/slate-editor-renderer/lib/commonMark";
 import isHotkey from "is-hotkey";
 
 export default function(options, hotkey) {

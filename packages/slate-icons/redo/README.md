@@ -1,11 +1,11 @@
-# @craigpestell/slate-icon-redo
+# @canner/slate-icon-redo
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-redo.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-redo)
 
 ## Icon
 
 ```js
-import Redo from "@craigpestell/slate-icon-redo";
+import Redo from "@canner/slate-icon-redo";
 ```
 
 #### Props
@@ -15,7 +15,7 @@ import Redo from "@craigpestell/slate-icon-redo";
 ## Plugin
 
 ```js
-import { RedoPlugin } from "@craigpestell/slate-icon-redo";
+import { RedoPlugin } from "@canner/slate-icon-redo";
 
 // support hot key for redo.
 const plugins = [RedoPlugin()];

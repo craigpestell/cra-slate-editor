@@ -1,4 +1,4 @@
-# @craigpestell/slate-icon-align
+# @canner/slate-icon-align
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-align.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-align)
 
@@ -13,7 +13,7 @@ Export components:
 This will add a data key called `align` (change the data key by passing `this.props.type`): value is one of `center`, `left`, `right`.
 
 ```js
-import { AlignCenter, AlignLeft, AlignRight } from "@craigpestell/slate-icon-align";
+import { AlignCenter, AlignLeft, AlignRight } from "@canner/slate-icon-align";
 ```
 
 #### Props
@@ -23,7 +23,7 @@ import { AlignCenter, AlignLeft, AlignRight } from "@craigpestell/slate-icon-ali
 ## Plugin
 
 ```js
-import { ParagraphPlugin } from "@craigpestell/slate-icon-shared";
+import { ParagraphPlugin } from "@canner/slate-icon-shared";
 
 const plugin = [ParagraphPlugin(option)];
 ```
