@@ -3,12 +3,12 @@ import * as React from "react";
 import type { IconProps } from "shared/src/types";
 import { Popover } from "antd";
 import ToolbarIcon from "@craigpestell/slate-icon-shared";
-import { Container } from "@craigpestell/image-upload";
+import { Container } from "@canner/image-upload";
 import { IntlProvider, FormattedMessage, addLocaleData } from "react-intl";
 import { IMAGE } from "@craigpestell/slate-constant/lib/inlines";
 import imageNode from "@craigpestell/slate-editor-renderer/lib/imageNode";
 
-import enLocale from "@craigpestell/image-upload/lib/locale/en";
+import enLocale from "@canner/image-upload/lib/locale/en";
 import en from "react-intl/locale-data/en";
 import zh from "react-intl/locale-data/zh";
 

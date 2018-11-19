@@ -1,7 +1,7 @@
 // @flow
 import * as React from "react";
 import { Editor } from "slate-react";
-import type { Value, Change } from "slate";
+import { type Value, type Change } from "slate";
 import styled from "styled-components";
 import Toolbar from "./menuToolbar";
 import toolbar from "slate-toolbar";

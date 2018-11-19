@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/canner/slate-md-editor.git"
   },
-  "main": "lib/index.js",
+  "main": "lib/index.tsx",
   "license": "MIT",
   "peerDependencies": {
     "antd": "^3.3.1",
