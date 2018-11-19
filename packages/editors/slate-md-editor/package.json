@@ -34,6 +34,10 @@
     "@craigpestell/slate-icon-underline": "^1.5.0",
     "@craigpestell/slate-md-plugin": "^1.5.4",
     "@craigpestell/slate-paste-html-plugin": "^1.5.2",
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.9",
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
     "github-markdown-css": "^2.10.0",
     "markup-it": "^7.0.0",
     "prismjs": "^1.13.0",
@@ -42,7 +46,12 @@
     "slate-edit-list": "^0.11.2",
     "slate-prism": "^0.4.0",
     "slate-soft-break": "^0.6.0",
-    "styled-components": "^3.2.1"
+    "styled-components": "^3.2.1",
+    "typescript": "^3.1.6"
   },
-  "keywords": ["slate", "plugin", "markdown"]
+  "keywords": [
+    "slate",
+    "plugin",
+    "markdown"
+  ]
 }

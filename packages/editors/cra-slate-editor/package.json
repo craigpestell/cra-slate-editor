@@ -5,12 +5,11 @@
     "Another rich text editor using Slate framework with toolbar support",
   "homepage": "",
   "author": {
-    "name": "Canner",
-    "email": "chilijung@gmail.com",
+    "name": "craigpestell",
+    "email": "craigpestell@gmail.com",
     "url": ""
   },
   "files": ["lib", "dist"],
-  "main": "./src/index",
   "keywords": ["editor", "slate", "slate-editor"],
   "devDependencies": {
     "chai": "^3.5.0",
