@@ -1,11 +1,11 @@
-# @canner/slate-icon-table
+# @craigpestell/slate-icon-table
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-table.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-table)
 
 ## Icon
 
 ```js
-import Table from "@canner/slate-icon-table";
+import Table from "@craigpestell/slate-icon-table";
 ```
 
 #### Props
@@ -16,7 +16,7 @@ import Table from "@canner/slate-icon-table";
 ## Plugin
 
 ```js
-import { TablePlugin } from "@canner/slate-icon-table";
+import { TablePlugin } from "@craigpestell/slate-icon-table";
 
 // this will add render method for table
 const plugins = [TablePlugin(options)];

@@ -1,15 +1,15 @@
 // @flow
 import * as React from "react";
 import type { IconProps } from "shared/src/types";
-import ToolbarIcon, { markAttrs } from "@canner/slate-icon-shared";
-import addMarkOverwrite from "@canner/slate-helper-mark-addoverwrite";
-import { haveMarks } from "@canner/slate-util-have";
-import { getMarkType } from "@canner/slate-util-get";
+import ToolbarIcon, { markAttrs } from "@craigpestell/slate-icon-shared";
+import addMarkOverwrite from "@craigpestell/slate-helper-mark-addoverwrite";
+import { haveMarks } from "@craigpestell/slate-util-have";
+import { getMarkType } from "@craigpestell/slate-util-get";
 import ColorPicker from "rc-color-picker";
 import hexRgb from "hex-rgb";
-import { FONTBGCOLOR } from "@canner/slate-constant/lib/marks";
+import { FONTBGCOLOR } from "@craigpestell/slate-constant/lib/marks";
 import omit from "lodash.omit";
-import commonMark from "@canner/slate-editor-renderer/lib/commonMark";
+import commonMark from "@craigpestell/slate-editor-renderer/lib/commonMark";
 
 import "rc-color-picker/assets/index.css";
 

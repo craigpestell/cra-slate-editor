@@ -1,7 +1,7 @@
 // @flow
 import * as React from "react";
 import type { IconProps } from "./types";
-import { haveMarks } from "@canner/slate-util-have";
+import { haveMarks } from "@craigpestell/slate-util-have";
 
 export default (type: string, defaultIcon: string) => (
   Mark: React.Element<*>

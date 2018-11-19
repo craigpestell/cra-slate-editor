@@ -1,9 +1,9 @@
 import OlListIcon from "./olList";
 import UlListIcon from "./ulList";
-import { OL_LIST, UL_LIST, LIST_ITEM } from "@canner/slate-constant/lib/blocks";
+import { OL_LIST, UL_LIST, LIST_ITEM } from "@craigpestell/slate-constant/lib/blocks";
 
-import { nodeAttrs } from "@canner/slate-icon-shared";
-import commonNode from "@canner/slate-editor-renderer/lib/commonNode";
+import { nodeAttrs } from "@craigpestell/slate-icon-shared";
+import commonNode from "@craigpestell/slate-editor-renderer/lib/commonNode";
 
 export const ListPlugin = opt => {
   const options = Object.assign(

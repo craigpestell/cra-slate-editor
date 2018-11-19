@@ -1,8 +1,8 @@
 // @flow
 import * as React from "react";
 import type { IconProps } from "shared/src/types";
-import { PARAGRAPH } from "@canner/slate-constant/lib/blocks";
-import { haveBlocks } from "@canner/slate-util-have";
+import { PARAGRAPH } from "@craigpestell/slate-constant/lib/blocks";
+import { haveBlocks } from "@craigpestell/slate-util-have";
 
 export const applyChange = (change, type) => {
   const isActive = haveBlocks(change, type);

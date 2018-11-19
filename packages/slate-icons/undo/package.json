@@ -1,5 +1,5 @@
 {
-  "name": "@canner/slate-icon-undo",
+  "name": "@craigpestell/slate-icon-undo",
   "version": "1.5.0",
   "description": "Slate icon for undo",
   "main": "lib/index.js",
@@ -13,7 +13,7 @@
     "react-dom": "^0.14.0 || ^15.0.0 || 16.x"
   },
   "dependencies": {
-    "@canner/slate-icon-shared": "^1.5.0"
+    "@craigpestell/slate-icon-shared": "^1.5.0"
   },
   "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@canner/slate-icon-indent",
+  "name": "@craigpestell/slate-icon-indent",
   "version": "1.5.0",
   "description": "Slate icon for indent and outdent",
   "main": "lib/index.js",
@@ -13,7 +13,7 @@
     "slate": ">=^0.33.0"
   },
   "dependencies": {
-    "@canner/slate-icon-shared": "^1.5.0"
+    "@craigpestell/slate-icon-shared": "^1.5.0"
   },
   "gitHead": "bb30f8746be7cbe2cda641b6b74c9d976bb56e31"
 }
