@@ -10,7 +10,7 @@
     "url": ""
   },
   "files": ["lib", "dist"],
-  "main": "./src/index.ts",
+  "main": "./src/index",
   "keywords": ["editor", "slate", "slate-editor"],
   "devDependencies": {
     "chai": "^3.5.0",
